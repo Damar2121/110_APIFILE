@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDatabase = require('./config/db');
-const komikRoutes = require('./routes/api');
+const apiRoute = require('./routes/api');
 
 const app = express();
 const PORT = 3000;
